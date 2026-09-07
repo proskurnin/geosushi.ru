@@ -280,7 +280,10 @@ export default function Home() {
 
         <footer>
           <a className="brand footer-brand" href="#top"><span className="brand-mark">Г</span><span>ГеоСуши</span></a>
-          <p>Истории на карте — как хорошее меню: всегда хочется открыть следующую.</p>
+          <div className="footer-copy">
+            <p>Истории на карте — как хорошее меню: всегда хочется открыть следующую.</p>
+            <p className="footer-credit">made with <span>♥</span> by Roman A. Proskurnin</p>
+          </div>
           <a href="#top">Вернуться к карте ↑</a>
         </footer>
       </section>

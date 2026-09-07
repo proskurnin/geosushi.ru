@@ -133,7 +133,10 @@ button { color: inherit; }
 
 footer { position: relative; display: grid; grid-template-columns: 1fr minmax(260px, 450px) 1fr; align-items: center; gap: 30px; min-height: 150px; margin: 0 calc(clamp(22px, 7vw, 110px) * -1); padding: 35px clamp(22px, 7vw, 110px); background: #17302d; color: #fff8e8; }
 .footer-brand { justify-self: start; }
+.footer-copy { text-align: center; }
 footer p { margin: 0; color: rgb(255 248 232 / 62%); font-family: Georgia, serif; font-size: 17px; line-height: 1.4; text-align: center; }
+.footer-credit { margin-top: 9px; font-family: var(--font-geist-sans), Arial, sans-serif; font-size: 11px; font-weight: 600; letter-spacing: .06em; }
+.footer-credit span { color: #ed684f; }
 footer > a:last-child { justify-self: end; color: #f0bd4d; font-size: 11px; font-weight: 700; letter-spacing: .1em; text-decoration: none; text-transform: uppercase; }
 
 @media (max-width: 820px) {
